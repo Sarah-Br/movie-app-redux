@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
+/* .App {
+  background-repeat: no-repeat;
+  background-image: url(https://backgroundcheckall.com/wp-content/uploads/2018/10/neon-background-hd-5.jpg);
+  background-size: cover;
+} */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-img{
+  position: relative;
 }
+.add-edit-btn{
+  max-width: 100%;
+}
+.btn {
+  background-color: rgb(115, 179, 243);
+  border: blue;
+  color: gold;
+  padding: 6px 9px;
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+    top: 10%;
+    left: 80%;
+    opacity: 0.7;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.btn:hover {
+  background-color: red
+  
   }
-}
+.film-img{
+  /* width: 16em;
+  height: 11em; */
+  /* margin: 10px; */
+  /* border-radius: 5px; */
+  max-width: 100%;
+ 
+  /* object-fit: contain */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+ 
+}
+;
+
+.title-year-movie{
+  font-family: "Sofia";
+  color: rgb(106, 251, 244);
+  text-shadow: "5px 0 0 rgb(39, 38, 38)";
+  /* text-align:'center'; */
+  font-size:'1.3em';
+  max-width: 100%;
+}
+.movie-card{
+ opacity: 0.85;
+  filter: alpha(opacity=10);
+
+align-items: baseline ;
+
+  width: 200px;
+  height: 300px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  margin:40px;
 }
+.add-movie{
+  opacity: 0.85;
+  filter: alpha(opacity=10);
 
-.App-link {
-  color: #61dafb;
-}
+align-items:'center'  ;
+  border: 2px solid whitesmoke;
+  width: 200px;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  margin:40px;
+ padding-top: 130px ;
+ border-radius: 5px
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
